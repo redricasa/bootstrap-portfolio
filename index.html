@@ -11,26 +11,31 @@
 
 <body>
 <!--all the pages 'index','portfolio' and 'contact' have the same navbar where you can navigate b/n pages-->
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Frederica Blissett</a>
-      <nav>
-        <a href="index.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">contact</a>
+                <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+            </div>
+        </div>
+    </nav>
 
   <div class="container">
     <div class="row">
         <div class="col">
             <h1>About Me</h1>
         <!-- media object -->
-                    <div class="media">
-                        <img class="align-self-start mr-3" src="..." alt="Generic placeholder image">
+                    <div class="media"> 
+                        <!-- change image size -->
+                        <img class="align-self-start mr-3" src="images\IMG_2662.jpg" alt="Generic placeholder image">
                         <div class="media-body">
-                        <h5 class="mt-0">Top-aligned media</h5>
+                        <!-- <h5 class="mt-0">Top-aligned media</h5> -->
                         <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
                         <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                         </div>
